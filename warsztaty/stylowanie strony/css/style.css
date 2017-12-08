@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: 'Lato', 'sans-serif';
+}
+
+/* menu*/
+
+nav#menu {
+    text-align: center;
+
+    background-color: black;
+
+}
+
+nav#menu > ul {
+    margin: 0;
+}
+
+nav#menu > ul > li.menu-item {
+    display: inline-block;
+
+    padding: 25px;
+
+    list-style: none;
+}
+
+nav#menu > ul > li.menu-item > a {
+    color: white;
+    list-style: none;
+}
+
+nav#menu > ul > li.menu-item > a:hover {
+    color: green;
+
+}
+
+/*header*/
+
+header#header > img {
+    width: 100%;
+    position: relative;
+}
+
+header#header > h1#main-header-text {
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto:
+}
+
+section#about h2#about-header {
+    font-size: 35px;
+    text-align: center;
+
+
+
+}
+
+section#about p.about-content {
+    font-size: 15px;
+    text-align: center;
+
+
+
+}
+
+footer#contact h2#contact-header {
+    text-align: center;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+
+}
+
+footer#contact {
+    text-align: center;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    list-style: none; 
+}
+
+footer >h2 >address, a {
+    text-align:center ;
+    font-size: 15px; 
+    background-color:black; 
+    color: white; 
