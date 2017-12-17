@@ -1,11 +1,20 @@
 'use strict';
 
-var wzrostMateusza = 100;
-var wzrostOlgi =100; 
+var kolor = 'czerwony';
 
-if (wzrostOlgi < wzrostMateusza) {
-    console.log("Olga jest wyzsza:)");
+switch (kolor) {
+    case 'czerwony':
+        console.log('kolor czerwony')
+        break; 
+    case 'zielony':
+        console.log('kolor zielony')
+        break; 
+    case 'czarny':
+        console.log('kolor czarny')
+        break;
+        
+
+
 }
-else (wzrostOlgi < wzrostMateusza) {
-    console.log("Olga jest nizsza:)");
-}
+
+
