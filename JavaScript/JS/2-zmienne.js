@@ -3,7 +3,7 @@ var imie;
 var imieMeskie = "Damian";
 var wiek = 27;
 
-var kolor = "blue";
+var kolor = "czerwony";
 
 imie ="Sergio";
 imie = imieMeskie;
