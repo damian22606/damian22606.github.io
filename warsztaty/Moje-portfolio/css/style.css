@@ -53,7 +53,7 @@ nav#main-nav > ul > li > a:hover {
     background-image: url("../img/img/header-background.jpg");
     height: 100vh;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     color: #fff;
 }
 
@@ -113,4 +113,174 @@ nav#main-nav > ul > li > a:hover {
 
 #about > h2 > span {
     color: #1ac056;
+
+}
+
+#skills {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+#skills > h2 > span {
+    color: #1ac056;
+}
+
+#skills-icons > figure {
+    display: inline-block;
+
+}
+
+/*Moje Portfolio-start*/
+
+ #portfolio {
+    margin:70px 60px;
+     width:100%;
+     
+}
+.portfolio-items {
+
+    
+    font-size: 0;
+    align-items:center;
+    justify-content:center;
+
+}
+
+#portfolio-item-1 {
+    background-image: url("../img/img/portfolio1.jpg");
+    position: absolute;
+    height: 350px;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+
+
+}
+
+#portfolio-item-2 {
+    background-image: url("../img/img/portfolio2.jpg");
+    position: absolute;
+    height: 350px;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+
+
+
+
+}
+
+#portfolio-item-3 {
+    background-image: url("../img/img/portfolio3.jpg");
+    position: absolute;
+    height: 350px;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+
+}
+
+.portfolio-items {
+    text-align: center;
+}
+
+#portfolio > h2 {
+    text-align:center;
+    font-family: "Roboto", sans-serif;
+}
+
+#portfolio > h2 > span {
+    color: #1ac056;
+}
+
+.item-mask {
+    background-color: rgba(42, 61, 79, 0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    font-size: initial;
+    transition: all 1s ease-in-out;
+
+}
+
+.item-mask:hover {
+    opacity: 1;
+
+
+}
+
+.item-mask > p {
+    color: white;
+    position: absolute;
+    text-align: center;
+    padding: 15px;
+    line-height: 30px;
+
+}
+
+.item-mask > p > span {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+/*footer*/
+
+#container {
+    background-color: #142634;
+    width: 100%;
+    height: 50vh;
+    position:relative;
+    
+
+}
+
+form {
+    color: white;
+    float: right;
+    line-height:20px;
+
+}
+
+form textarea, input[type="text"], input[type="mail"] {
+    margin: 10px;
+    background-color:#142634; 
+    width:500px; 
+    align-items:flex-end;
+    justify-content:center;
+    
+    
+}
+
+form textarea:focus, 
+input[type="text"]:focus, 
+input[type="mail"]:focus {
+    background-color:#4e708c;
+    border:1px solid #fff;
+    color:white;
+    font-family:"lato",sans-serif;
+    
+}
+#container > h2 {
+    color:white;
+    
+    position:absolute;
+    font-size:30px ;
+    top:50px;
+    left:50px;
+        
+}
+
+#container>h2>span{
+    color:#1ac056;
 }
