@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* nav-start*/
+
+#main-nav .nav-item a {
+    color: white;
+    margin: 0 30px;
+    font-size: 20px;
+}
+
+/*nav-end*/
+
+/*header-start*/
+
+#main-header {
+    background-image: url("../img/portfolio/header-background.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+#main-header h1 {
+    color: white;
+    font-size: 110px;
+}
+
+#main-header h1 span {
+    color: #33eb25;
+    font-size: 130px;
+}
+
+#main-header p {
+    color: white;
+    font-size: 50px;
+}
+
+/*header-end*/
+
+/*section-about-start*/
+
+#about {
+    height: 90vh;
+    text-align: center;
+    background-color: #d4e2e5;
+
+
+}
+
+#about .about-image {
+    background-image: url("../img/portfolio/typing_on_laptop.jpg");
+    height: 450px;
+    width: 70%;
+    background-size: cover;
+    border-radius: 10%;
+
+}
+
+#about .about-title {
+    font-size: 60px;
+    padding: 30px;
+}
+
+#about .about-title span {
+    color: #33eb25;
+}
+
+#about .about-paragraf {
+    font-style: italic;
+    text-indent: 40px;
+}
+
+/*section-about-end*/
+
+/*section-skills-start*/
+
+#skills {
+    height: 70vh;
+
+    text-align: center;
+
+
+}
+
+#skills .skills-title {
+    padding: 30px;
+    font-size: 60px;
+}
+
+#skills .skills-title span {
+    color: #33eb25;
+}
+
+#skills .skills-info {
+    padding: 10px;
+
+}
+
+#skills .skills-info h3 {
+    font-size: 25px;
+    font-style: oblique;
+}
+
+#skills .skills-info p {
+    font-style: italic;
+    text-indent: 40px;
+}
+
+#skills .skills-image {
+    background-color: #f4d77a;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#skills .skills-image i {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+
+}
+
+#skills .skills-image:hover {
+    background-color: #7F85DF;
+    color: white;
+    transform: rotate(360deg);
+    transition: all 0.8s ease-in 0.5s;
+    width: 150px;
+    height: 150px;
+}
+
+/*section-skills-end*/
+
+/*section-portfolio-start*/
+
+#portfolio {
+
+    text-align: center;
+    margin: 0 30px;
+}
+
+#portfolio .portfolio-title {
+    font-size: 60px;
+    padding: 20px;
+}
+
+#portfolio .portfolio-title span {
+    color: #33eb25;
+}
+
+#portfolio .portfolio-image {
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    background-size: cover;
+}
+
+#portfolio .portfolio-image:hover {
+    background-color: gray;
+}
+
+#portfolio #portfolio-image-1 {
+
+    background-image: url("../img/portfolio/box_of_cookies.jpg")
+}
+
+#portfolio #portfolio-image-2 {
+    background-image: url("../img/portfolio/chaotic_paint.jpg");
+}
+
+#portfolio #portfolio-image-3 {
+    background-image: url("../img/portfolio/chestnut_on_bracket.jpg");
+
+}
+
+#portfolio #portfolio-image-4 {
+    background-image: url("../img/portfolio/child_with_blue_paint.jpg");
+}
+
+#portfolio #portfolio-image-5 {
+    background-image: url("../img/portfolio/house_with_blue_doors.jpg");
+}
+
+#portfolio #portfolio-image-6 {
+    background-image: url("../img/portfolio/header-background.jpg");
+}
+
+#portfolio .portfolio-about h3 {
+    font-size: 20px;
+    padding: 20px;
+    font-style: italic;
+}
+
+/*section-portfolioi-end*/
+
+/*section-footer-start*/
+
+#contact .footer-image {
+    background-image: url("../img/footer/world-map.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+#contact .contact-title {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+#contact .form-item {
+    width: 450px;
+    margin:0 auto; 
+    padding: 20px;
+    
+    
+}
+#contact .form-item #message {
+    height:200px;
+}
+
+#contact .form-button {
+    text-align: center;
+}
+#contact .footer-icons {
+    padding:10px;
+    text-align:center;
+    font-size:15px;
+}
+#contact .footer-icons p {
+    display:inline-block;
+    margin:0 auto;
+    margin:0 40px;
+    
+}
+#contact .footer-icons #tw {
+   color:aqua;
+}
+
+
+
+
+    
+

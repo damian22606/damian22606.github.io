@@ -1,0 +1,18 @@
+/*.container-example {
+    height:50vh;
+    background-color:red;
+}
+
+.container-fluid-example {
+    height:20vh;
+    background-color:yellow;
+}*/
+
+.item {
+    height:350px;
+    background-color:#ccc;
+    
+}
+.item:nth-child(2n) {
+    background-color:blue;
+}
